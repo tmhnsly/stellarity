@@ -1,0 +1,77 @@
+/* FONT IMPORTS */
+@import url("https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;700&display=swap");
+
+/* COLOUR IMPORTS */
+
+:root {
+  /* FONT SIZES */
+  --font-size-micro: 0.25rem;
+  --font-size-xsmall: 0.5rem;
+  --font-size-small: 0.75rem;
+  --font-size-regular: 1rem;
+  --font-size-medium: 1.5rem;
+  --font-size-large: 2.5rem;
+  --font-size-xlarge: 4rem;
+  --font-size-jumbo: 6rem;
+
+  /* LINE HEIGHTS */
+  --line-height-micro: 1rem;
+  --line-height-xsmall: 1.25rem;
+  --line-height-small: 1.25rem;
+  --line-height-regular: 1.5rem;
+  --line-height-medium: 2rem;
+  --line-height-large: 3rem;
+  --line-height-xlarge: 4.5rem;
+  --line-height-jumbo: 7rem;
+
+  /** FONT WEIGHTS */
+  --font-weight-regular: 400;
+  --font-weight-medium: 500;
+  --font-weight-bold: 700;
+
+  /* SPACING */
+  --spacing-xxsmall: 0.5rem;
+  --spacing-xsmall: 0.625rem;
+  --spacing-small: 0.75rem;
+  --spacing-medium: 1rem;
+  --spacing-large: 1.25rem;
+  --spacing-xlarge: 1.5rem;
+  --spacing-xxlarge: 2rem;
+  --spacing-xxxlarge: 3rem;
+  --spacing-jumbo: 3.75rem;
+
+  /* STYLING */
+  --border-radius-default: 0.5rem;
+  --border-radius-round: 50%;
+}
+
+body {
+  /* STYLES */
+  background-color: var(--sage1);
+  color: var(--sage12);
+
+  /* FONTS */
+  font-family: Rubik, system-ui, sans-serif;
+  font-weight: var(--font-weight-regular);
+  line-height: 1.5;
+}
+
+h1 {
+  font-size: var(--font-size-large);
+  line-height: var(--line-height-large);
+}
+
+h2 {
+  font-size: var(--font-size-medium);
+  line-height: var(--line-height-medium);
+}
+
+h3 {
+  font-size: var(--font-size-regular);
+  line-height: var(--line-height-regular);
+}
+
+p {
+  font-size: var(--font-size-regular);
+  line-height: var(--line-height-regular);
+}
