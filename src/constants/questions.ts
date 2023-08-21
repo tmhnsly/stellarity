@@ -2,133 +2,160 @@ import { Question } from "../types";
 
 export const questions: Question[] = [
   {
-    question: "Upon detecting an unknown anomaly in the quadrant, you:",
+    question: "Which cosmic spectacle resonates with you the most?",
     options: [
       {
-        text: "Initiate a deep-space scan to decipher its mysteries.",
-        cluster: "Lyria", // Introspective, knowledge-driven
+        text: "The mesmerizing dance of the Northern Lights",
+        cluster: "Lyria",
+        image:
+          "https://images.unsplash.com/photo-1483347756197-71ef80e95f73?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8bm9ydGhlcm4lMjBsaWdodHN8ZW58MHx8MHx8fDA%3D&w=1000&q=80",
       },
       {
-        text: "Mobilize a fleet for potential diplomatic or leadership opportunities.",
-        cluster: "Cygnus", // Leadership, charisma
+        text: "The awe-inspiring majesty of a solar eclipse",
+        cluster: "Cygnus",
+        image:
+          "https://www.aljazeera.com/wp-content/uploads/2019/07/788834b5c6f14e1ba3d942df3fc59810_18.jpeg",
       },
       {
-        text: "Analyze its alignment with nearby celestial bodies for its place in the cosmos.",
-        cluster: "Cassiope", // Order, structure
+        text: "The serene beauty of a star-filled night sky",
+        cluster: "Cassiope",
+        image:
+          "https://imageio.forbes.com/specials-images/imageserve/577c129fd7c6ee6a37c42b99/This-is-the-Milky-Way-from-Concordia-Camp--in-Pakistan-s-Karakoram-Range-/960x0.jpg?format=jpg&width=960",
       },
       {
-        text: "Formulate a tactical approach to potentially harness its resources.",
-        cluster: "Athenae", // Strategy, calculated
+        text: "The calculated precision of a rocket launch",
+        cluster: "Athenae",
+        image:
+          "https://i0.wp.com/apollo11space.com/wp-content/uploads/2023/06/Untitled-design-2023-06-03T145048.279-jpg.webp?resize=930%2C620&ssl=1",
       },
     ],
   },
   {
-    question:
-      "A transmission from an unknown civilization is received. It's in a coded language. Your approach is to:",
+    question: "Choose a celestial body that resonates with you:",
     options: [
       {
-        text: "Decipher its underlying patterns and harmonies for understanding.",
+        text: "A distant and mysterious nebula",
         cluster: "Lyria",
+        image:
+          "https://www.slashgear.com/img/gallery/here-are-the-first-images-from-the-james-webb-space-telescope/intro-1657650552.jpg",
       },
       {
-        text: "Establish a welcoming beacon, showing intent for mutual growth.",
+        text: "The radiant beauty of Saturn's rings",
         cluster: "Cygnus",
+        image:
+          "https://www.universetoday.com/wp-content/uploads/2008/05/saturn_rings-1280x720.jpg",
       },
       {
-        text: "Catalog the symbols, checking for universal consistencies.",
+        text: "The orderly structure of a spiral galaxy",
         cluster: "Cassiope",
+        image:
+          "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/M101_hires_STScI-PRC2006-10a.jpg/1200px-M101_hires_STScI-PRC2006-10a.jpg",
       },
       {
-        text: "Anticipate the civilization's motives and plan next moves.",
+        text: "The calculated trajectory of a comet",
         cluster: "Athenae",
+        image:
+          "https://www.openaccessgovernment.org/wp-content/uploads/2023/01/green-comet.jpeg",
       },
     ],
   },
   {
-    question:
-      "Your starship enters a nebulous zone with unpredictable cosmic phenomena. Your first instinct is to:",
+    question: "Which cosmic element inspires your journey?",
     options: [
       {
-        text: "Contemplate the origin and nature of the phenomena.",
+        text: "The ethereal essence of stardust",
         cluster: "Lyria",
+        image: "stardust-image-url",
       },
       {
-        text: "Lead the crew with confidence, reassuring them of your guidance.",
+        text: "The radiant energy of a supernova",
         cluster: "Cygnus",
+        image: "supernova-image-url",
       },
       {
-        text: "Assess the ship's systems for optimal stability and order.",
+        text: "The cosmic order reflected in a quasar",
         cluster: "Cassiope",
+        image: "quasar-image-url",
       },
       {
-        text: "Strategically adjust the ship's route for an advantageous position.",
+        text: "The strategic alignment of cosmic bodies",
         cluster: "Athenae",
+        image: "cosmic-alignment-image-url",
       },
     ],
   },
   {
-    question:
-      "You discover an ancient alien relic on a distant moon. You are inclined to:",
+    question: "Which cosmic path do you resonate with?",
     options: [
       {
-        text: "Reverently study its melodies and the wisdom it might share.",
+        text: "The mysterious paths of black holes",
         cluster: "Lyria",
+        image: "black-hole-image-url",
       },
       {
-        text: "Showcase it as a beacon of unity and progress for the universe.",
+        text: "The captivating journey of a shooting star",
         cluster: "Cygnus",
+        image: "shooting-star-image-url",
       },
       {
-        text: "Methodically understand its purpose in the grand cosmic schema.",
+        text: "The well-ordered path of an orbiting planet",
         cluster: "Cassiope",
+        image: "orbiting-planet-image-url",
       },
       {
-        text: "Evaluate its strategic importance for your cosmic expedition.",
+        text: "The strategic trajectory of a space probe",
         cluster: "Athenae",
+        image: "space-probe-image-url",
       },
     ],
   },
   {
-    question:
-      "A cosmic event threatens intergalactic stability. Your chosen countermeasure is:",
+    question: "Choose a cosmic force that guides your endeavors:",
     options: [
       {
-        text: "An ethereal harmonizer to resonate and pacify the event's energies.",
+        text: "The subtle pull of cosmic gravity",
         cluster: "Lyria",
+        image: "cosmic-gravity-image-url",
       },
       {
-        text: "A galactic summit, leveraging influence to bring about resolution.",
+        text: "The radiant light of distant stars",
         cluster: "Cygnus",
+        image: "distant-stars-image-url",
       },
       {
-        text: "A cosmic balancer, ensuring equilibrium in the stellar domain.",
+        text: "The precise calculations of cosmic mathematics",
         cluster: "Cassiope",
+        image: "cosmic-mathematics-image-url",
       },
       {
-        text: "A strategic shield grid, minimizing potential fallout.",
+        text: "The strategic interplay of celestial forces",
         cluster: "Athenae",
+        image: "celestial-forces-image-url",
       },
     ],
   },
   {
-    question:
-      "Upon meeting an extraterrestrial life form, your predominant thought is of:",
+    question: "Which cosmic destination calls out to you?",
     options: [
       {
-        text: "The underlying cosmic symphony they bring.",
+        text: "The enigmatic depths of a cosmic rift",
         cluster: "Lyria",
+        image: "cosmic-rift-image-url",
       },
       {
-        text: "The potential for mutual leadership and growth.",
+        text: "The majestic beauty of a distant galaxy",
         cluster: "Cygnus",
+        image: "distant-galaxy-image-url",
       },
       {
-        text: "Understanding their role in the structured universe.",
+        text: "The harmonious equilibrium of a binary star system",
         cluster: "Cassiope",
+        image: "binary-star-system-image-url",
       },
       {
-        text: "The tactical alliances and perspectives they offer.",
+        text: "The strategic potential of a cosmic crossroads",
         cluster: "Athenae",
+        image: "cosmic-crossroads-image-url",
       },
     ],
   },

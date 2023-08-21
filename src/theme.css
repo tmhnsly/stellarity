@@ -2,6 +2,68 @@
 @import url("https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;700&display=swap");
 
 /* COLOUR IMPORTS */
+@import "../node_modules/@radix-ui/colors/slate.css";
+@import "../node_modules/@radix-ui/colors/slate-alpha.css";
+@import "../node_modules/@radix-ui/colors/slate-dark.css";
+@import "../node_modules/@radix-ui/colors/slate-dark-alpha.css";
+@import "../node_modules/@radix-ui/colors/blue.css";
+@import "../node_modules/@radix-ui/colors/blue-alpha.css";
+@import "../node_modules/@radix-ui/colors/blue-dark.css";
+@import "../node_modules/@radix-ui/colors/blue-dark-alpha.css";
+
+@import "@radix-ui/colors/teal.css";
+@import "@radix-ui/colors/teal-dark.css";
+
+@import "@radix-ui/colors/red.css";
+@import "@radix-ui/colors/red-dark.css";
+@import "@radix-ui/colors/amber.css";
+@import "@radix-ui/colors/amber-dark.css";
+@import "@radix-ui/colors/green.css";
+@import "@radix-ui/colors/green-dark.css";
+@import "@radix-ui/colors/blue.css";
+@import "@radix-ui/colors/blue-dark.css";
+
+/* Reset default styles */
+html,
+body,
+div,
+p,
+h1,
+h2,
+h3,
+ul,
+ol {
+  margin: 0;
+  padding: 0;
+}
+
+/* Apply box sizing to all elements */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/* Set body styles */
+body {
+  font-family: "Rubik", system-ui, sans-serif;
+  background-color: var(--slate-1);
+  color: var(--slate-12);
+  overflow-x: hidden; /* Prevent horizontal scrollbar */
+  overflow-y: scroll; /* Always show vertical scrollbar for consistent layout */
+}
+
+/* Set core root defaults */
+html:focus-within {
+  scroll-behavior: smooth;
+}
+
+/* Root container */
+#root {
+  margin: 0;
+  min-height: 100vh;
+  width: 100vw;
+}
 
 :root {
   /* FONT SIZES */
@@ -43,17 +105,18 @@
   /* STYLING */
   --border-radius-default: 0.5rem;
   --border-radius-round: 50%;
+
+  /* CUSTOM SIZES */
+  --nav-bar-height: 4rem;
 }
 
 body {
   /* STYLES */
-  background-color: var(--sage1);
-  color: var(--sage12);
+  background-color: var(--slate-1);
+  color: var(--slate-12);
 
   /* FONTS */
   font-family: Rubik, system-ui, sans-serif;
-  font-weight: var(--font-weight-regular);
-  line-height: 1.5;
 }
 
 h1 {

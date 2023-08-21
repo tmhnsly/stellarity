@@ -1,0 +1,43 @@
+@import "../../mixins.scss";
+
+.content {
+  display: flex;
+  height: 100%;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: var(--spacing-xlarge);
+}
+
+.textSection {
+  display: flex;
+  flex-direction: column;
+  padding: var(--spacing-xlarge);
+}
+
+.heading {
+  font-size: var(--font-size-medium);
+  line-height: var(--line-height-medium);
+  font-weight: var(--font-weight-bold);
+  color: var(--slate-12);
+}
+
+.subheading {
+  font-size: var(--font-size-large);
+  line-height: var(--line-height--large--font-size-large);
+  font-weight: var(--font-weight-bold);
+  color: var(--blue-10);
+}
+
+.description {
+  font-size: var(--font-size-medium);
+  line-height: var(--line-height---font-size-medium);
+  color: var(--slate-12);
+  max-width: 45ch;
+}
+
+.ctaBegin {
+  padding: 0 2rem;
+  display: flex;
+  justify-content: center;
+  // @include backdrop-blur(var(--slate-a3), 1rem);
+}

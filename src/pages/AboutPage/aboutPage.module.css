@@ -1,22 +1,25 @@
 /* aboutPage.module.css */
-
 .aboutPage {
-  font-family: Arial, sans-serif;
-  max-width: 800px;
-  margin: 0 auto;
-  padding: 20px;
-  line-height: 1.6;
+  width: 100%;
+}
+
+.textContainer {
+  padding: var(--spacing-xxlarge);
+  background-color: var(--slate-a1);
+  backdrop-filter: blur(1rem);
+  -webkit-backdrop-filter: blur(1rem);
 }
 
 .aboutTitle {
-  font-size: 32px;
-  margin-bottom: 20px;
-  color: #007bff;
+  font-size: 2rem;
+  margin-bottom: 1.25rem;
+  color: var(--blue-10);
 }
 
 .aboutText {
-  font-size: 18px;
-  margin-bottom: 20px;
+  max-width: 45ch;
+  font-size: 1.125rem;
+  margin-bottom: 1.25rem;
 }
 
 .aboutText:last-child {
@@ -25,10 +28,4 @@
 
 .aboutText strong {
   font-weight: bold;
-}
-
-.aboutHighlight {
-  background-color: #f8f8f8;
-  padding: 5px;
-  border-radius: 5px;
-}
+}/*# sourceMappingURL=aboutPage.module.css.map */

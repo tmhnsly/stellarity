@@ -1,0 +1,1 @@
+{"version":3,"sources":["aboutPage.module.scss","aboutPage.module.css","../../mixins.scss"],"names":[],"mappings":"AAAA,yBAAA;AAGA;EACE,WAAA;ACDF;;ADIA;EACE,+BAAA;EEPA,iCFQuB;EEPvB,2BAAA;EACA,mCAAA;ADOF;;ADEA;EACE,eAAA;EACA,sBAAA;EACA,qBAAA;ACCF;;ADEA;EACE,eAAA;EACA,mBAAA;EACA,sBAAA;ACCF;;ADEA;EACE,gBAAA;ACCF;;ADEA;EACE,iBAAA;ACCF","file":"aboutPage.module.css"}

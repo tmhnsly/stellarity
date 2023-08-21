@@ -11,7 +11,8 @@ export interface ClusterDetails {
 export interface Question {
   question: string;
   options: {
-    text: string;
     cluster: Cluster;
+    text?: string;
+    image?: string;
   }[];
 }

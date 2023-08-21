@@ -1,0 +1,31 @@
+/* aboutPage.module.css */
+@import "../../mixins.scss";
+
+.aboutPage {
+  width: 100%;
+}
+
+.textContainer {
+  padding: var(--spacing-xxlarge);
+  @include backdrop-blur(var(--slate-a1), 1rem);
+}
+
+.aboutTitle {
+  font-size: 2rem;
+  margin-bottom: 1.25rem;
+  color: var(--blue-10);
+}
+
+.aboutText {
+  max-width: 45ch;
+  font-size: 1.125rem;
+  margin-bottom: 1.25rem;
+}
+
+.aboutText:last-child {
+  margin-bottom: 0;
+}
+
+.aboutText strong {
+  font-weight: bold;
+}

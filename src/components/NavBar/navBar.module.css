@@ -1,27 +1,21 @@
 .navBar {
-  background-color: #333;
-  color: white;
-  padding: 10px 0;
-}
-
-.navList {
-  list-style: none;
+  position: sticky;
+  top: 0;
+  left: 0;
+  z-index: 50;
   display: flex;
-  justify-content: center;
-  margin: 0;
-  padding: 0;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 var(--spacing-xsmall);
+  height: var(--nav-bar-height);
+  background-color: var(--slate-a1);
+  backdrop-filter: blur(1rem);
+  -webkit-backdrop-filter: blur(1rem);
+  box-shadow: 0px -5px 15px var(--slate-6);
 }
 
-.navItem {
-  margin: 0 15px;
-}
-
-.navLink {
-  text-decoration: none;
-  color: white;
-  font-size: 18px;
-}
-
-.navLink:hover {
-  text-decoration: underline;
-}
+.links {
+  display: flex;
+  gap: var(--spacing-small);
+  align-items: inherit;
+}/*# sourceMappingURL=navBar.module.css.map */

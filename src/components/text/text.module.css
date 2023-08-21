@@ -1,0 +1,48 @@
+.text {
+  display: block;
+  margin: 0;
+  padding: 0;
+  color: var(--slate-12);
+  font-weight: var(--font-weight-regular);
+}
+.text [data-size=micro] {
+  font-size: var(--font-size-micro);
+  line-height: var(--line-height-micro);
+}
+.text [data-size=xsmall] {
+  font-size: var(--font-size-xsmall);
+  line-height: var(--line-height-xsmall);
+}
+.text [data-size=small] {
+  font-size: var(--font-size-small);
+  line-height: var(--line-height-small);
+}
+.text [data-size=regular] {
+  font-size: var(--font-size-regular);
+  line-height: var(--line-height-regular);
+}
+.text [data-size=medium] {
+  font-size: var(--font-size-medium);
+  line-height: var(--line-height-medium);
+}
+.text [data-size=large] {
+  font-size: var(--font-size-large);
+  line-height: var(--line-height-large);
+}
+.text [data-size=xlarge] {
+  font-size: var(--font-size-xlarge);
+  line-height: var(--line-height-xlarge);
+}
+.text [data-size=jumbo] {
+  font-size: var(--font-size-jumbo);
+  line-height: var(--line-height-jumbo);
+}
+.text [data-weight=regular] {
+  font-weight: var(--font-weight-regular);
+}
+.text [data-weight=medium] {
+  font-weight: var(--font-weight-medium);
+}
+.text [data-weight=bold] {
+  font-weight: var(--font-weight-bold);
+}/*# sourceMappingURL=text.module.css.map */

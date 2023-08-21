@@ -1,5 +1,3 @@
-// useQuizLogic.ts
-
 import { useState } from "react";
 import { Cluster, Question } from "../types";
 import { questions } from "../constants/questions";
@@ -27,11 +25,20 @@ export function useQuizLogic() {
   const handleNext = () => {
     if (currentQuestionIndex + 1 < questions.length) {
       setCurrentQuestionIndex(currentQuestionIndex + 1);
-      setSelectedAnswer(null); // Clear the selected answer for the next question
+      setSelectedAnswer(null);
     } else {
       const determinedDominantCluster =
         determineDominantCluster(selectedClusters);
-      navigate(`/results?cluster=${determinedDominantCluster}`);
+      setSelectedAnswer(null);
+      console.log("Navigating to results page");
+      navigate(`/cluster?cluster=${determinedDominantCluster}`);
+    }
+  };
+
+  const handlePrevious = () => {
+    if (currentQuestionIndex > 0) {
+      setCurrentQuestionIndex(currentQuestionIndex - 1);
+      setSelectedAnswer(null);
     }
   };
 
@@ -39,6 +46,7 @@ export function useQuizLogic() {
     currentQuestion,
     handleAnswerSelection,
     handleNext,
+    handlePrevious,
     progress,
     selectedAnswer,
   };

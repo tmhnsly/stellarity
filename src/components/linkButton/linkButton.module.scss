@@ -1,0 +1,93 @@
+$themes: (
+  "default" "slate-a",
+  "warning" "amber-",
+  "negative" "red-",
+  "info" "blue-",
+  "positive" "green-",
+  "teal" "teal-",
+  "transparent" "slate-a"
+);
+
+$sizes: (
+  "small" 1.5rem var(--spacing-xsmall) var(--font-size-small),
+  "medium" 2.75rem var(--spacing-small),
+  "large" 3.5rem var(--spacing-medium)
+);
+
+.link {
+  all: unset;
+
+  // LAYOUT
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  max-width: 50vw;
+  flex-shrink: 0;
+
+  // FONT
+  font-weight: var(--font-weight-medium);
+
+  // STYLE
+  box-sizing: border-box;
+  border-radius: var(--border-radius-default);
+  cursor: pointer;
+  user-select: none;
+  -webkit-user-select: none;
+
+  &:focus-visible {
+    outline: 3px solid var(--blue7);
+  }
+
+  @each $name, $size, $padding, $fontSize in $sizes {
+    &[data-size="#{$name}"] {
+      height: $size;
+      min-width: $size;
+      padding: 0 $padding;
+      font-size: $fontSize;
+    }
+  }
+
+  @each $name, $color in $themes {
+    &[data-theme="#{$name}"] {
+      &[data-kind="default"] {
+        color: var(--#{$color}12);
+
+        &:hover {
+          background-color: var(--#{$color}4);
+        }
+
+        &:active {
+          background-color: var(--#{$color}5);
+        }
+      }
+
+      &[data-kind="border"] {
+        background-color: var(--#{$color}3);
+        color: var(--#{$color}12);
+        border: 0.125rem solid var(--#{$color}7);
+
+        &:hover {
+          background-color: var(--#{$color}4);
+          border: 0.125rem solid var(--#{$color}8);
+        }
+
+        &:active {
+          background-color: var(--#{$color}5);
+        }
+      }
+
+      &[data-kind="solid"] {
+        background-color: var(--#{$color}4);
+        color: var(--#{$color}12);
+
+        &:hover {
+          background-color: var(--#{$color}5);
+        }
+
+        &:active {
+          background-color: var(--#{$color}6);
+        }
+      }
+    }
+  }
+}

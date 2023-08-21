@@ -1,0 +1,48 @@
+@import "../../mixins.scss";
+
+.section {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 4rem;
+}
+
+.quiz {
+  flex: 1;
+  width: 100%;
+  max-width: 768px;
+  padding: 1.25rem;
+  box-sizing: border-box;
+  overflow-y: auto;
+}
+
+.quizOptions {
+  display: grid; /* Use CSS Grid layout */
+  grid-template-columns: repeat(
+    auto-fill,
+    minmax(17rem, 1fr)
+  ); /* Responsive grid with minimum width */
+  justify-content: center;
+  gap: 2.5rem;
+}
+
+.buttonContainer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem;
+  background-color: var(--slate-a1);
+  backdrop-filter: blur(1rem);
+  -webkit-backdrop-filter: blur(1rem);
+  z-index: 1000; /* Adjust the z-index value as needed */
+  box-sizing: border-box; /* Include padding in width calculation */
+}
+
+.prevButton,
+.nextButton {
+  cursor: pointer;
+}

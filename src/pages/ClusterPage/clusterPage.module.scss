@@ -1,0 +1,41 @@
+@import "../../mixins.scss";
+
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: var(--spacing-xlarge);
+  @include backdrop-blur(var(--slate-a1), 1rem);
+}
+
+.clusterContainer {
+  margin-top: var(--spacing-xlarge);
+  border-radius: var(--border-radius-medium);
+  box-shadow: var(--box-shadow);
+  background-color: var(--white);
+  max-width: 50rem;
+  padding: var(--spacing-large);
+}
+
+.clusterTitle {
+  color: var(--slate-12);
+}
+
+.textSection {
+  display: flex;
+  flex-direction: column;
+}
+
+.clusterSubtitle {
+  color: var(--slate-12);
+}
+
+.clusterDescription {
+  color: var(--slate-12);
+  max-width: 45ch;
+}
+
+.errorMessage {
+  color: var(--slate-12);
+  max-width: 45ch;
+}

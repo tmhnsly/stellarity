@@ -1,0 +1,59 @@
+.text {
+  display: block;
+  margin: 0;
+  padding: 0;
+  color: var(--slate-12);
+  font-weight: var(--font-weight-regular);
+
+  [data-size="micro"] {
+    font-size: var(--font-size-micro);
+    line-height: var(--line-height-micro);
+  }
+
+  [data-size="xsmall"] {
+    font-size: var(--font-size-xsmall);
+    line-height: var(--line-height-xsmall);
+  }
+
+  [data-size="small"] {
+    font-size: var(--font-size-small);
+    line-height: var(--line-height-small);
+  }
+
+  [data-size="regular"] {
+    font-size: var(--font-size-regular);
+    line-height: var(--line-height-regular);
+  }
+
+  [data-size="medium"] {
+    font-size: var(--font-size-medium);
+    line-height: var(--line-height-medium);
+  }
+
+  [data-size="large"] {
+    font-size: var(--font-size-large);
+    line-height: var(--line-height-large);
+  }
+
+  [data-size="xlarge"] {
+    font-size: var(--font-size-xlarge);
+    line-height: var(--line-height-xlarge);
+  }
+
+  [data-size="jumbo"] {
+    font-size: var(--font-size-jumbo);
+    line-height: var(--line-height-jumbo);
+  }
+
+  [data-weight="regular"] {
+    font-weight: var(--font-weight-regular);
+  }
+
+  [data-weight="medium"] {
+    font-weight: var(--font-weight-medium);
+  }
+
+  [data-weight="bold"] {
+    font-weight: var(--font-weight-bold);
+  }
+}
